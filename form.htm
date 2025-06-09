@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Formulir Pendaftaran Organisasi Pemrograman</title>
+</head>
+<body>
+<h2>Formulir Pendaftaran Organisasi Pemrograman</h2>
+
+<form action="pendaftaran_pemrograman.html" method="get">
+
+Nama Lengkap: <input type="text" name="nama" />
+<br />
+
+NIM: <input type="text" name="nim" />
+<br />
+
+Jenis Kelamin: 
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked /> 
+Laki-Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" /> 
+Perempuan
+<br />
+
+Bahasa Pemrograman yang Dikuasai:
+<input type="checkbox" name="python" checked /> Python
+<input type="checkbox" name="java" /> Java
+<input type="checkbox" name="cpp" /> C++
+<input type="checkbox" name="web" /> HTML/CSS/JavaScript
+<br />
+
+Fakultas:
+<select name="fakultas">
+  <option value="Fakultas Teknik">Fakultas Teknik</option>
+  <option value="Fakultas Ekonomi" selected>Fakultas Ekonomi</option>
+  <option value="Fakultas Kedokteran">Fakultas Kedokteran</option>
+  <option value="Fakultas prndidikan">Fakultas pendidikan</option>
+</select>
+<br />
+
+Motivasi Bergabung:
+<textarea name="motivasi" rows="5" cols="30">
+Tulis alasan dan harapan Anda bergabung dalam organisasi ini
+</textarea>
+<br />
+
+<input type="submit" value="Kirim Pendaftaran">
+
+</form>
+</body>
+</html>
